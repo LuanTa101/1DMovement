@@ -10,7 +10,8 @@ let config = {
     },
     width: 1000,
     height: 800,
-    scene: [Avatar]
+    scene: [Avatar],
+    fps: { forceSetTimeOut: true, target: 30 }
 }
 
 // Global variable to hold sprites
